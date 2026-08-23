@@ -1,0 +1,320 @@
+{
+  "crop": "grape",
+  "model": "efficientnet_b0",
+  "report_generated": "2026-07-23",
+  "project": "PlantDiseaseAI v3",
+  "training_summary": {
+    "architecture": "EfficientNet-B0 (ImageNet pretrained)",
+    "planned_epochs": 50,
+    "actual_epochs_completed": 17,
+    "early_stopping_reason": "Early stopping (patience = 10, monitor = val_loss)",
+    "best_epoch": 16,
+    "best_validation_loss": 0.00044690807301596777,
+    "best_validation_accuracy": 1.0,
+    "total_training_time_sec": 1273.8,
+    "total_training_time_minutes": 21.2,
+    "checkpoint_saved_epoch_0_indexed": 15
+  },
+  "training_configuration": {
+    "batch_size": 32,
+    "input_size": 224,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "loss_function": "Weighted Cross Entropy",
+    "scheduler": "Cosine Annealing (warmup 2 epochs)",
+    "amp": true,
+    "gradient_clipping": 1.0,
+    "early_stopping_patience": 10,
+    "class_weight_source": "datasets/grape/train (inverse-frequency computed at training time)"
+  },
+  "dataset_summary": {
+    "train_images": 3417,
+    "validation_images": 608,
+    "test_images": 610,
+    "num_classes": 4,
+    "train_notes": "Includes 578 augmented Healthy images (see datasets/grape/reports/dataset_metadata.json)",
+    "validation_notes": "Original images only (no augmentation)",
+    "test_notes": "Original images only (no augmentation)"
+  },
+  "classes": [
+    {
+      "id": 0,
+      "display_name": "Black Rot",
+      "folder_name": "Black_Rot"
+    },
+    {
+      "id": 1,
+      "display_name": "Esca (Black Measles)",
+      "folder_name": "Esca"
+    },
+    {
+      "id": 2,
+      "display_name": "Leaf Blight (Isariopsis Leaf Spot)",
+      "folder_name": "Leaf_Blight"
+    },
+    {
+      "id": 3,
+      "display_name": "Healthy",
+      "folder_name": "Healthy"
+    }
+  ],
+  "per_epoch_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2549118442847481,
+      "val_loss": 0.011212638131263176,
+      "train_accuracy": 0.9053655660377359,
+      "val_accuracy": 0.9967105263157895,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.001,
+      "epoch_time_sec": 119.34295129776001
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.17988280162549103,
+      "val_loss": 0.12393106648845949,
+      "train_accuracy": 0.9324882075471698,
+      "val_accuracy": 0.9523026315789473,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.001,
+      "epoch_time_sec": 86.50437498092651
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.17013192823912315,
+      "val_loss": 0.08935275467535432,
+      "train_accuracy": 0.9383844339622641,
+      "val_accuracy": 0.9703947368421053,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009989401670031086,
+      "epoch_time_sec": 79.56802940368652
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.14739245383886024,
+      "val_loss": 0.005229457517998526,
+      "train_accuracy": 0.9410377358490566,
+      "val_accuracy": 0.9983552631578947,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009957652063800361,
+      "epoch_time_sec": 97.90479445457458
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.09391863220634888,
+      "val_loss": 0.016756983624813267,
+      "train_accuracy": 0.9610849056603774,
+      "val_accuracy": 0.9917763157894737,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009904887137995992,
+      "epoch_time_sec": 90.21341156959534
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.10842692299466196,
+      "val_loss": 0.008277581876233111,
+      "train_accuracy": 0.9675707547169812,
+      "val_accuracy": 0.9967105263157895,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009831332840130886,
+      "epoch_time_sec": 66.07682228088379
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.06680940196164092,
+      "val_loss": 0.0004753104921483579,
+      "train_accuracy": 0.9784787735849056,
+      "val_accuracy": 1.0,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009737304141000774,
+      "epoch_time_sec": 65.72661924362183
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.056310518257888825,
+      "val_loss": 0.016539709847572675,
+      "train_accuracy": 0.9793632075471698,
+      "val_accuracy": 0.993421052631579,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.000962320368593087,
+      "epoch_time_sec": 65.90148615837097
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.06239349213604516,
+      "val_loss": 0.012834233547508981,
+      "train_accuracy": 0.980247641509434,
+      "val_accuracy": 0.9967105263157895,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009489520070586807,
+      "epoch_time_sec": 65.63254141807556
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.04464800630077387,
+      "val_loss": 0.0036585557461720733,
+      "train_accuracy": 0.9837853773584906,
+      "val_accuracy": 0.9983552631578947,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009336825748732972,
+      "epoch_time_sec": 65.73658776283264
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.04800652085114567,
+      "val_loss": 0.000820245660487504,
+      "train_accuracy": 0.9864386792452831,
+      "val_accuracy": 1.0,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0009165774580897599,
+      "epoch_time_sec": 65.64323830604553
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0405094388562539,
+      "val_loss": 0.000527245637662295,
+      "train_accuracy": 0.9855542452830188,
+      "val_accuracy": 1.0,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0008977099034441614,
+      "epoch_time_sec": 65.77931952476501
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.04281915291028541,
+      "val_loss": 0.003010769309816007,
+      "train_accuracy": 0.9858490566037735,
+      "val_accuracy": 1.0,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0008771607047020939,
+      "epoch_time_sec": 68.51013088226318
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.038506350503838514,
+      "val_loss": 0.0033491354643944617,
+      "train_accuracy": 0.9879127358490566,
+      "val_accuracy": 0.9983552631578947,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.000855017856687341,
+      "epoch_time_sec": 68.69784259796143
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.030153866788426076,
+      "val_loss": 0.006401669718946354,
+      "train_accuracy": 0.9899764150943396,
+      "val_accuracy": 0.9967105263157895,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0008313761784745341,
+      "epoch_time_sec": 69.76421070098877
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.027215318205572606,
+      "val_loss": 0.00044690807301596777,
+      "train_accuracy": 0.9902712264150944,
+      "val_accuracy": 1.0,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0008063369073593168,
+      "epoch_time_sec": 66.31591701507568
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.02654661477853946,
+      "val_loss": 0.003750764794816812,
+      "train_accuracy": 0.9893867924528302,
+      "val_accuracy": 0.9983552631578947,
+      "f1_macro": "Not Available",
+      "learning_rate": 0.0007800072653447031,
+      "epoch_time_sec": 66.52874827384949
+    }
+  ],
+  "artifacts": {
+    "best_model": "weights/grape/best_model.pth",
+    "last_model": "weights/grape/last_model.pth",
+    "training_history": "weights/grape/training_history.json",
+    "training_log_csv": "Not Available",
+    "tensorboard": "logs/tensorboard/grape_efficientnet_b0_20260722_165056",
+    "training_curves": "Not Available",
+    "validation_confusion_matrix": "Not Available",
+    "class_mapping": "datasets/grape/reports/class_mapping.json"
+  },
+  "testing_status": {
+    "completed": true,
+    "test_directory": "datasets/grape/test",
+    "test_images": 610,
+    "model_checkpoint": "weights/grape/best_model.pth",
+    "evaluation_date": "2026-07-22",
+    "evaluation_time_sec": 31,
+    "evaluation_time_source": "logs/training/pipeline.log (22:42:12 to 22:42:43 UTC+5:30 local log timestamps)"
+  },
+  "overall_metrics": {
+    "test_accuracy": 1.0,
+    "test_loss": "Not Available",
+    "top3_accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0,
+    "f1_weighted": 1.0,
+    "macro_auc": 1.0,
+    "weighted_auc": "Not Available",
+    "average_confidence": 0.9998882029877334,
+    "misclassifications": 0
+  },
+  "per_class_metrics": [
+    {
+      "display_name": "Black Rot",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 177
+    },
+    {
+      "display_name": "Esca (Black Measles)",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 207
+    },
+    {
+      "display_name": "Leaf Blight (Isariopsis Leaf Spot)",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 162
+    },
+    {
+      "display_name": "Healthy",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    }
+  ],
+  "classification_report": "precision    recall  f1-score   support\n\n                         Black Rot       1.00      1.00      1.00       177\n              Esca (Black Measles)       1.00      1.00      1.00       207\nLeaf Blight (Isariopsis Leaf Spot)       1.00      1.00      1.00       162\n                           Healthy       1.00      1.00      1.00        64\n\n                          accuracy                           1.00       610\n                         macro avg       1.00      1.00      1.00       610\n                      weighted avg       1.00      1.00      1.00       610",
+  "misclassifications": [],
+  "validation_checks": {
+    "every_test_image_evaluated_once": true,
+    "no_missing_predictions": true,
+    "no_duplicate_predictions": true,
+    "test_dataset_unchanged": true
+  },
+  "evaluation_artifacts": {
+    "metrics_json": "evaluation/grape/metrics.json",
+    "classification_report": "evaluation/grape/classification_report.txt",
+    "predictions_json": "evaluation/grape/predictions.json",
+    "confusion_matrix_plot": "evaluation/grape/confusion_matrix.png",
+    "roc_curves_plot": "evaluation/grape/roc_curves.png",
+    "precision_recall_curves": "evaluation/grape/precision_recall_curves.png"
+  },
+  "export_artifacts": {
+    "torchscript": "exports/grape/grape_disease.torchscript.pt",
+    "onnx": "exports/grape/grape_disease.onnx",
+    "pytorch_copy": "exports/grape/grape_disease.pth",
+    "export_metadata": "exports/grape/export_metadata.json"
+  }
+}

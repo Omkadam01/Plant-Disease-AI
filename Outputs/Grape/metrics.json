@@ -1,0 +1,74 @@
+{
+  "accuracy": 1.0,
+  "precision_macro": 1.0,
+  "recall_macro": 1.0,
+  "f1_macro": 1.0,
+  "precision_weighted": 1.0,
+  "recall_weighted": 1.0,
+  "f1_weighted": 1.0,
+  "per_class": {
+    "Black Rot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 177
+    },
+    "Esca (Black Measles)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 207
+    },
+    "Leaf Blight (Isariopsis Leaf Spot)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 162
+    },
+    "Healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 64
+    }
+  },
+  "confusion_matrix": [
+    [
+      177,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      207,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      162,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      64
+    ]
+  ],
+  "classification_report": "                                    precision    recall  f1-score   support\n\n                         Black Rot       1.00      1.00      1.00       177\n              Esca (Black Measles)       1.00      1.00      1.00       207\nLeaf Blight (Isariopsis Leaf Spot)       1.00      1.00      1.00       162\n                           Healthy       1.00      1.00      1.00        64\n\n                          accuracy                           1.00       610\n                         macro avg       1.00      1.00      1.00       610\n                      weighted avg       1.00      1.00      1.00       610\n",
+  "roc_auc": {
+    "Black Rot": 1.0,
+    "Esca (Black Measles)": 1.0,
+    "Leaf Blight (Isariopsis Leaf Spot)": 1.0,
+    "Healthy": 1.0
+  },
+  "pr_auc": {
+    "Black Rot": 1.0,
+    "Esca (Black Measles)": 1.0,
+    "Leaf Blight (Isariopsis Leaf Spot)": 1.0,
+    "Healthy": 1.0
+  }
+}

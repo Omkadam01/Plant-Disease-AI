@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "PlantDiseaseAI",
+    "organization": "PlantDiseaseAI"
+  },
+  "header": {
+    "title": "PlantDiseaseAI",
+    "subtitle": "एआय-चालित पिक रोग ओळख"
+  },
+  "language": {
+    "label": "भाषा",
+    "options": {
+      "en": "🇺🇸 English",
+      "hi": "🇮🇳 हिन्दी",
+      "mr": "🇮🇳 मराठी"
+    }
+  },
+  "left_panel": {
+    "crop": "पिक",
+    "model": "मॉडेल",
+    "crop_grape": "द्राक्ष",
+    "crop_tomato": "टोमॅटो",
+    "model_efficientnet": "EfficientNet-B0"
+  },
+  "buttons": {
+    "upload_image": "प्रतिमा अपलोड करा",
+    "capture_image": "कॅमेरा सुरू करा",
+    "start_camera": "कॅमेरा सुरू करा",
+    "capture": "कॅप्चर",
+    "cancel": "रद्द करा"
+  },
+  "image_panel": {
+    "original": "मूळ प्रतिमा",
+    "gradcam": "Grad-CAM ओव्हरले",
+    "no_image": "प्रतिमा नाही",
+    "failed_to_load": "लोड अयशस्वी",
+    "live_preview": "लाइव्ह कॅमेरा पूर्वावलोकन"
+  },
+  "prediction": {
+    "title": "अंदाज",
+    "disease_label": "रोगाचे नाव :",
+    "confidence": "{pct:.2f} %",
+    "empty_name": "—",
+    "empty_percent": "0.00 %",
+    "show_more": "इतर अंदाज दाखवा",
+    "hide_more": "इतर अंदाज लपवा"
+  },
+  "status_panel": {
+    "ready": "तयार",
+    "running": "अंदाज चालू आहे...",
+    "complete": "अंदाज पूर्ण",
+    "inference_time": "अंदाज वेळ: {ms:.0f} ms",
+    "inference_time_placeholder": "अंदाज वेळ: —",
+    "model": "मॉडेल: {name}",
+    "model_placeholder": "मॉडेल: —",
+    "error": "त्रुटी: {message}"
+  },
+  "status_bar": {
+    "model_loaded": "मॉडेल लोड: {value}",
+    "model_loading": "लोड होत आहे...",
+    "model_yes": "होय",
+    "model_error": "त्रुटी",
+    "model_placeholder": "—",
+    "device": "डिव्हाइस: {value}",
+    "device_placeholder": "—",
+    "inference": "अंदाज: {value}",
+    "inference_placeholder": "—",
+    "inference_ms": "{ms:.0f} ms"
+  },
+  "device": {
+    "gpu": "GPU",
+    "apple_gpu": "Apple GPU",
+    "cpu": "CPU",
+    "not_loaded": "लोड नाही"
+  },
+  "explanation": {
+    "why_title": "हे का घडले?",
+    "remedies_title": "शिफारस केलेले उपाय",
+    "why_waiting": "एआय स्पष्टीकरणाची वाट पाहत आहे...",
+    "remedies_waiting": "एआय शिफारसीची वाट पाहत आहे...",
+    "loading": "एआय शिफारस तयार होत आहे...",
+    "unavailable": "एआय स्पष्टीकरण सध्या उपलब्ध नाही.",
+    "overview": "आढावा",
+    "causes": "कारणे",
+    "symptoms": "लक्षणे",
+    "prevention": "प्रतिबंध",
+    "remedies": "उपाय",
+    "tips": "टिप्स",
+    "organic_remedies": "सेंद्रिय उपाय",
+    "chemical_remedies": "रासायनिक उपाय",
+    "farmer_tips": "शेतकरी टिप्स",
+    "disease_overview": "रोग आढावा"
+  },
+  "camera": {
+    "title": "प्रतिमा कॅप्चर करा",
+    "initializing": "कॅमेरा सुरू होत आहे...",
+    "not_available": "कॅमेरा उपलब्ध नाही"
+  },
+  "file_dialog": {
+    "select_leaf": "पानाची प्रतिमा निवडा",
+    "image_filter": "प्रतिमा (*.png *.jpg *.jpeg *.bmp *.tif *.tiff)"
+  },
+  "dialog": {
+    "model_load_error_title": "मॉडेल लोड त्रुटी",
+    "model_load_error_body": "रोग ओळख मॉडेल लोड होऊ शकले नाही.\n\n{error}",
+    "model_not_ready_title": "मॉडेल तयार नाही",
+    "model_not_ready_body": "कृपया मॉडेल लोड होण्याची वाट पहा.",
+    "inference_error_title": "अंदाज त्रुटी",
+    "inference_error_body": "अंदाज अयशस्वी:\n{error}",
+    "camera_error_title": "कॅमेरा त्रुटी",
+    "upload_failed_title": "अपलोड अयशस्वी",
+    "image_not_supported_title": "प्रतिमा समर्थित नाही",
+    "image_not_supported_body": "निवडलेला प्रतिमा प्रकार समर्थित नाही."
+  },
+  "classes": {
+    "black_rot": "ब्लॅक रॉट",
+    "esca": "एस्का (ब्लॅक मिझल्स)",
+    "leaf_blight": "लीफ ब्लाइट (इसारियोप्सिस लीफ स्पॉट)",
+    "healthy": "निरोगी"
+  }
+}

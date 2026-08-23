@@ -1,0 +1,1212 @@
+{
+  "metadata": {
+    "crop": "tomato",
+    "source": "PlantVillage (Original) — raw/color",
+    "dataset_root": "C:\\Projects\\Plant_Disease_v3\\PlantVillage-Dataset\\raw\\color",
+    "generated_at": "2026-07-22T18:13:53.121906+00:00",
+    "analysis_mode": "read_only"
+  },
+  "summary": {
+    "total_images": 18160,
+    "number_of_classes": 10,
+    "class_names": [
+      "Tomato___Bacterial_spot",
+      "Tomato___Early_blight",
+      "Tomato___healthy",
+      "Tomato___Late_blight",
+      "Tomato___Leaf_Mold",
+      "Tomato___Septoria_leaf_spot",
+      "Tomato___Spider_mites Two-spotted_spider_mite",
+      "Tomato___Target_Spot",
+      "Tomato___Tomato_mosaic_virus",
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    ],
+    "images_per_class": {
+      "Tomato___Bacterial_spot": 2127,
+      "Tomato___Early_blight": 1000,
+      "Tomato___healthy": 1591,
+      "Tomato___Late_blight": 1909,
+      "Tomato___Leaf_Mold": 952,
+      "Tomato___Septoria_leaf_spot": 1771,
+      "Tomato___Spider_mites Two-spotted_spider_mite": 1676,
+      "Tomato___Target_Spot": 1404,
+      "Tomato___Tomato_mosaic_virus": 373,
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 5357
+    },
+    "exact_duplicate_count": 14,
+    "exact_duplicate_groups": 14,
+    "near_duplicate_count": 47,
+    "near_duplicate_groups": 47,
+    "corrupted_images": 0,
+    "zero_byte_files": 0,
+    "hidden_or_system_files": 0,
+    "invalid_filenames": 0,
+    "unsupported_formats": 0,
+    "class_imbalance": {
+      "min_per_class": 373,
+      "max_per_class": 5357,
+      "mean_per_class": 1816.0,
+      "imbalance_ratio_max_to_min": 14.362,
+      "coefficient_of_variation": 0.705,
+      "majority_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "minority_class": "Tomato___Tomato_mosaic_virus"
+    },
+    "structure_valid": true
+  },
+  "directory_structure": {
+    "root": "C:\\Projects\\Plant_Disease_v3\\PlantVillage-Dataset\\raw\\color",
+    "class_folders": [
+      "Tomato___Bacterial_spot",
+      "Tomato___Early_blight",
+      "Tomato___healthy",
+      "Tomato___Late_blight",
+      "Tomato___Leaf_Mold",
+      "Tomato___Septoria_leaf_spot",
+      "Tomato___Spider_mites Two-spotted_spider_mite",
+      "Tomato___Target_Spot",
+      "Tomato___Tomato_mosaic_virus",
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    ],
+    "empty_folders": [],
+    "unexpected_non_tomato_folders": [],
+    "validation_passed": true
+  },
+  "global_image_statistics": {
+    "formats": {
+      ".jpg": 18159,
+      ".jpeg": 1
+    },
+    "color_modes": {
+      "RGB": 18160
+    },
+    "min_width": 256,
+    "max_width": 256,
+    "avg_width": 256,
+    "min_height": 256,
+    "max_height": 256,
+    "avg_height": 256,
+    "min_resolution": "256x256",
+    "max_resolution": "256x256",
+    "avg_resolution": "256x256"
+  },
+  "per_class": {
+    "Tomato___Bacterial_spot": {
+      "folder_name": "Tomato___Bacterial_spot",
+      "image_count": 2127,
+      "formats": {
+        ".jpg": 2127
+      },
+      "color_modes": {
+        "RGB": 2127
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Early_blight": {
+      "folder_name": "Tomato___Early_blight",
+      "image_count": 1000,
+      "formats": {
+        ".jpg": 1000
+      },
+      "color_modes": {
+        "RGB": 1000
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___healthy": {
+      "folder_name": "Tomato___healthy",
+      "image_count": 1591,
+      "formats": {
+        ".jpg": 1591
+      },
+      "color_modes": {
+        "RGB": 1591
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Late_blight": {
+      "folder_name": "Tomato___Late_blight",
+      "image_count": 1909,
+      "formats": {
+        ".jpg": 1908,
+        ".jpeg": 1
+      },
+      "color_modes": {
+        "RGB": 1909
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Leaf_Mold": {
+      "folder_name": "Tomato___Leaf_Mold",
+      "image_count": 952,
+      "formats": {
+        ".jpg": 952
+      },
+      "color_modes": {
+        "RGB": 952
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "folder_name": "Tomato___Septoria_leaf_spot",
+      "image_count": 1771,
+      "formats": {
+        ".jpg": 1771
+      },
+      "color_modes": {
+        "RGB": 1771
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "folder_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "image_count": 1676,
+      "formats": {
+        ".jpg": 1676
+      },
+      "color_modes": {
+        "RGB": 1676
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Target_Spot": {
+      "folder_name": "Tomato___Target_Spot",
+      "image_count": 1404,
+      "formats": {
+        ".jpg": 1404
+      },
+      "color_modes": {
+        "RGB": 1404
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "folder_name": "Tomato___Tomato_mosaic_virus",
+      "image_count": 373,
+      "formats": {
+        ".jpg": 373
+      },
+      "color_modes": {
+        "RGB": 373
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "folder_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "image_count": 5357,
+      "formats": {
+        ".jpg": 5357
+      },
+      "color_modes": {
+        "RGB": 5357
+      },
+      "min_width": 256,
+      "max_width": 256,
+      "avg_width": 256,
+      "min_height": 256,
+      "max_height": 256,
+      "avg_height": 256,
+      "min_resolution": "256x256",
+      "max_resolution": "256x256",
+      "avg_resolution": "256x256",
+      "zero_byte_files": [],
+      "corrupted_count": 0,
+      "corrupted": [],
+      "invalid_filenames": [],
+      "unsupported_files": [],
+      "hidden_files": []
+    }
+  },
+  "duplicates": {
+    "exact_groups": [
+      {
+        "group_id": 0,
+        "hash": "32cb22521edc69a5503a6749446dd522",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG",
+          "Tomato___healthy\\34c81c57-e1fa-49dd-a49d-34fe8b2385fe___GH_HL Leaf 466.1.JPG"
+        ]
+      },
+      {
+        "group_id": 1,
+        "hash": "ea0a44df2e4e44c6ccacc31f067a6284",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\1af0bfe1-4bcf-4b8b-be66-5d0953eb647e___GH_HL Leaf 482.2.JPG",
+          "Tomato___healthy\\cfd491d6-4af5-4728-8f0e-0d330a07174a___GH_HL Leaf 482.2.JPG"
+        ]
+      },
+      {
+        "group_id": 2,
+        "hash": "2e53ad1ec3f810e2ff4c83400dc69ec9",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\37203047-d8ba-43f7-b31e-d496c41c569c___GH_HL Leaf 389.JPG",
+          "Tomato___healthy\\505465db-407b-4e0a-8110-7479dad5261c___GH_HL Leaf 389.JPG"
+        ]
+      },
+      {
+        "group_id": 3,
+        "hash": "3dab5eb1192b5c43fd3015490cf0b18f",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\37aad83b-7ff8-4b35-b3ed-fb8e0f54910b___GH_HL Leaf 342.1.JPG",
+          "Tomato___healthy\\e786ac89-29fe-47e3-b49e-b9a9ee7edd9d___GH_HL Leaf 342.1.JPG"
+        ]
+      },
+      {
+        "group_id": 4,
+        "hash": "6e48e89e89da343b6b90ccda5b18d698",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\488feb1c-4b9f-44e7-8aa6-4103a9601f5f___GH_HL Leaf 434.JPG",
+          "Tomato___healthy\\a5de43e7-fc2f-4a14-a8e6-c0f2f94c84f1___GH_HL Leaf 434.JPG"
+        ]
+      },
+      {
+        "group_id": 5,
+        "hash": "4b73700b68ce8704f6b4549a2846dede",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\9662364c-aaba-45e3-b907-10792d60578c___GH_HL Leaf 220.JPG",
+          "Tomato___healthy\\d2ce7896-6fa4-45e6-96c5-d162da0e3e1c___GH_HL Leaf 220.JPG"
+        ]
+      },
+      {
+        "group_id": 6,
+        "hash": "1d87a50fa691cef6f476b20bb48cfaf8",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\1a69b38b-c4eb-42c4-9584-bcb14fb8db0c___GHLB2 Leaf 9011.JPG",
+          "Tomato___Late_blight\\2c47b891-3c97-48f1-a2cc-5aa53d3a1148___GHLB2 Leaf 9011.JPG"
+        ]
+      },
+      {
+        "group_id": 7,
+        "hash": "bf12be065849d781b7da2e79091b1072",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\3fae9c64-18f0-4a67-9f97-554248bb1bed___GHLB_PS Leaf 24 Day 16.jpg",
+          "Tomato___Late_blight\\5de6da85-f8c4-48c4-b463-3e6bd78884cc___GHLB_PS Leaf 24 Day 16.jpg"
+        ]
+      },
+      {
+        "group_id": 8,
+        "hash": "3b227920ba50ce0a4602b258f624e935",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\48c55974-9fe9-4f4b-94f7-c8cd127d1e05___GHLB_PS Leaf 23.7 Day 13.jpg",
+          "Tomato___Late_blight\\bd4f09bd-ee85-4ab1-bce0-8cde3fdd7f1b___GHLB_PS Leaf 23.7 Day 13.jpg"
+        ]
+      },
+      {
+        "group_id": 9,
+        "hash": "ca06650efa30a3f6731df694f07b4690",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\5688ea99-c949-41d0-bbab-9cbf0ffb8bcd___GHLB2 Leaf 8677.JPG",
+          "Tomato___Late_blight\\e20107e7-137f-400e-817f-5dc4c58e5d70___GHLB2 Leaf 8677.JPG"
+        ]
+      },
+      {
+        "group_id": 10,
+        "hash": "0e0dcd876f5b32cac9da836b2e783d91",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\5f21282c-e2ef-4c4a-ace1-b5701fe7effc___GHLB2 Leaf 8999.JPG",
+          "Tomato___Late_blight\\e5d707cd-077c-43af-bda9-6138e516ff51___GHLB2 Leaf 8999.JPG"
+        ]
+      },
+      {
+        "group_id": 11,
+        "hash": "c1b24c8caaa06e756560a83d7358579e",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\861d8b00-57a4-46b0-b51a-09d102dbe119___GHLB_PS Leaf 24 Day 13.jpg",
+          "Tomato___Late_blight\\d82b634e-9a19-497b-b698-aaf100d622a1___GHLB_PS Leaf 24 Day 13.jpg"
+        ]
+      },
+      {
+        "group_id": 12,
+        "hash": "4bab4aa40d89e19ed72d8b8d501b1db8",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\98586693-fe1f-4ea0-8e27-4501b61cf09b___GHLB_PS Leaf 23.5 Day 13.jpg",
+          "Tomato___Late_blight\\c1775bad-7c02-41fb-bb7d-f8df91d60ac3___GHLB_PS Leaf 23.5 Day 13.jpg"
+        ]
+      },
+      {
+        "group_id": 13,
+        "hash": "5bdbdc7333be3ab35ef81ec17ce14816",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\d6e6897a-5083-4914-9903-804c5684a956___GHLB2 Leaf 102.JPG",
+          "Tomato___Late_blight\\d81682aa-746b-4e07-af2b-52ebb6f4c017___GHLB2 Leaf 102.JPG"
+        ]
+      }
+    ],
+    "near_groups": [
+      {
+        "group_id": 14,
+        "phash": "ffb0d003c35f8568",
+        "count": 2,
+        "paths": [
+          "Tomato___Bacterial_spot\\196be0af-51c3-4587-bd91-9a606631d4f3___GCREC_Bact.Sp 3453.JPG",
+          "Tomato___Bacterial_spot\\6d746b6c-52f8-4831-b541-c74d0984c130___GCREC_Bact.Sp 3169.JPG"
+        ]
+      },
+      {
+        "group_id": 15,
+        "phash": "ab60941f92afca1d",
+        "count": 2,
+        "paths": [
+          "Tomato___Bacterial_spot\\29184f19-db21-475d-8032-a8b7c3a9c7f4___GCREC_Bact.Sp 5784.JPG",
+          "Tomato___Bacterial_spot\\5c5dbca4-4322-4227-a543-6ff6f876a531___GCREC_Bact.Sp 5785.JPG"
+        ]
+      },
+      {
+        "group_id": 16,
+        "phash": "ab65d44a923dda92",
+        "count": 2,
+        "paths": [
+          "Tomato___Bacterial_spot\\2b1247ef-594a-4ada-9377-1f46af51859c___GCREC_Bact.Sp 3095.JPG",
+          "Tomato___Bacterial_spot\\dfca025b-a6d9-431a-977e-4bd174daa3a1___GCREC_Bact.Sp 5948.JPG"
+        ]
+      },
+      {
+        "group_id": 17,
+        "phash": "afe0944bca0dcd36",
+        "count": 2,
+        "paths": [
+          "Tomato___Bacterial_spot\\611c6fa8-d805-4956-a786-2a4522c59f71___GCREC_Bact.Sp 5616.JPG",
+          "Tomato___Bacterial_spot\\efd6193d-7d5b-4207-999d-2aeb08cd64e2___GCREC_Bact.Sp 5739.JPG"
+        ]
+      },
+      {
+        "group_id": 18,
+        "phash": "eae5841e9ab84bb1",
+        "count": 2,
+        "paths": [
+          "Tomato___Bacterial_spot\\741e2f09-1b62-42c2-b218-6504d57c0f27___GCREC_Bact.Sp 3302.JPG",
+          "Tomato___Bacterial_spot\\e2286f6d-1e30-4528-ab51-84c18a16b7e1___GCREC_Bact.Sp 3503.JPG"
+        ]
+      },
+      {
+        "group_id": 19,
+        "phash": "cae93186649bb3ca",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\0b330273-890c-4995-af72-cba070fc0061___GH_HL Leaf 312.JPG",
+          "Tomato___healthy\\240a9583-9e6a-446d-8850-62bc23312ce9___GH_HL Leaf 312.4.JPG"
+        ]
+      },
+      {
+        "group_id": 20,
+        "phash": "dfe264853f8cc039",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\0c4b06d5-4053-44fc-99b6-504934fdd3a9___GH_HL Leaf 199.1.JPG",
+          "Tomato___healthy\\84991306-21f6-41fb-a723-0c7ba1dac9d3___GH_HL Leaf 199.JPG"
+        ]
+      },
+      {
+        "group_id": 21,
+        "phash": "daa321c42fda64b9",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\2bd08574-9555-42a5-93b1-7fab8f9f8786___GH_HL Leaf 475.2.JPG",
+          "Tomato___healthy\\5300bf32-485d-4978-9099-3175fb666da8___GH_HL Leaf 475.JPG"
+        ]
+      },
+      {
+        "group_id": 22,
+        "phash": "dcab6bc5709a8760",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\5015e0d2-a6e3-4859-aceb-78089d1b60f7___GH_HL Leaf 186.2.JPG",
+          "Tomato___healthy\\a7c3088b-6aeb-4e8c-97dd-4661a4cacc38___GH_HL Leaf 186.JPG"
+        ]
+      },
+      {
+        "group_id": 23,
+        "phash": "dba421d6229bcd99",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\71967e69-6356-49c1-81ce-624792b4d964___GH_HL Leaf 315.1.JPG",
+          "Tomato___healthy\\9b5626b0-ea1d-45d0-bc41-c898f7253a75___GH_HL Leaf 315.2.JPG"
+        ]
+      },
+      {
+        "group_id": 24,
+        "phash": "c8b337c21c2dd33c",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\ad8359a4-48b9-4469-a012-ed9b220de38e___GH_HL Leaf 285.1.JPG",
+          "Tomato___healthy\\fd2fa9cc-2147-40ff-9e71-0056eb7884ed___GH_HL Leaf 285.JPG"
+        ]
+      },
+      {
+        "group_id": 25,
+        "phash": "9fe7609662ca318d",
+        "count": 2,
+        "paths": [
+          "Tomato___healthy\\ca4e96c1-9bf0-49fb-804f-c895905c0584___GH_HL Leaf 210.2.JPG",
+          "Tomato___healthy\\d442075f-73bb-47a0-9545-9b36bca9300b___GH_HL Leaf 210.JPG"
+        ]
+      },
+      {
+        "group_id": 26,
+        "phash": "8ef171cf17384cc1",
+        "count": 2,
+        "paths": [
+          "Tomato___Late_blight\\2159d0f7-09ef-46ad-ad49-749e8ce1becc___GHLB2 Leaf 8836.JPG",
+          "Tomato___Late_blight\\7f533ee8-1d72-486e-b2a6-b5ef2ac7cc88___GHLB2 Leaf 8837.JPG"
+        ]
+      },
+      {
+        "group_id": 27,
+        "phash": "afe0948fca3cc934",
+        "count": 2,
+        "paths": [
+          "Tomato___Leaf_Mold\\76e5026d-dc54-4129-8250-573317cc91da___Crnl_L.Mold 6700.JPG",
+          "Tomato___Leaf_Mold\\78cfaa28-9259-4225-8641-5dfaceab2118___Crnl_L.Mold 6690.JPG"
+        ]
+      },
+      {
+        "group_id": 28,
+        "phash": "aab4d04bcf2ccab4",
+        "count": 2,
+        "paths": [
+          "Tomato___Spider_mites Two-spotted_spider_mite\\45d0aca4-ce49-43cb-af35-99ac8d283930___Com.G_SpM_FL 1459.JPG",
+          "Tomato___Spider_mites Two-spotted_spider_mite\\e0837534-7480-4ba7-8f04-34f232f76008___Com.G_SpM_FL 8565.JPG"
+        ]
+      },
+      {
+        "group_id": 29,
+        "phash": "b1579b69c66c9864",
+        "count": 2,
+        "paths": [
+          "Tomato___Spider_mites Two-spotted_spider_mite\\497393f6-55bc-4e2b-b208-fa0f54ba8c92___Com.G_SpM_FL 1420.JPG",
+          "Tomato___Spider_mites Two-spotted_spider_mite\\e33fa280-f5cc-404b-a205-36966e9ceb38___Com.G_SpM_FL 8950.JPG"
+        ]
+      },
+      {
+        "group_id": 30,
+        "phash": "e11697699e699c25",
+        "count": 2,
+        "paths": [
+          "Tomato___Spider_mites Two-spotted_spider_mite\\75c39e92-9f7a-4266-b6bb-56bb3cd48dcb___Com.G_SpM_FL 9523.JPG",
+          "Tomato___Spider_mites Two-spotted_spider_mite\\82e7ae32-dee2-4e83-aeb3-aab7a4bdf04f___Com.G_SpM_FL 9263.JPG"
+        ]
+      },
+      {
+        "group_id": 31,
+        "phash": "e116ce699c69926d",
+        "count": 2,
+        "paths": [
+          "Tomato___Spider_mites Two-spotted_spider_mite\\a75666ed-91d1-4f47-bcf2-554c8a5a3fd5___Com.G_SpM_FL 9551.JPG",
+          "Tomato___Spider_mites Two-spotted_spider_mite\\f7b7b4c8-1420-4ffe-ba64-97be026edeb4___Com.G_SpM_FL 8978.JPG"
+        ]
+      },
+      {
+        "group_id": 32,
+        "phash": "e112ce699c6d996c",
+        "count": 2,
+        "paths": [
+          "Tomato___Spider_mites Two-spotted_spider_mite\\af0d2ecc-72f9-40ca-ad16-b3ef9419e9ec___Com.G_SpM_FL 9559.JPG",
+          "Tomato___Spider_mites Two-spotted_spider_mite\\ce05bc05-0c4c-4290-903c-f46ab2ba1f53___Com.G_SpM_FL 9283.JPG"
+        ]
+      },
+      {
+        "group_id": 33,
+        "phash": "a916c76996665396",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_mosaic_virus\\847307bc-58ab-45fc-8001-f1e07a38bc82___PSU_CG 2065.JPG",
+          "Tomato___Tomato_mosaic_virus\\8e59061b-3802-4297-8724-a001efb95268___PSU_CG 2064.JPG"
+        ]
+      },
+      {
+        "group_id": 34,
+        "phash": "b01bdb6d6d303073",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\02cb40d6-550a-42fb-99ce-247e4406a322___UF.GRC_YLCV_Lab 02991.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\acb9169b-21bc-4b31-ba3c-a24909521156___UF.GRC_YLCV_Lab 02981.JPG"
+        ]
+      },
+      {
+        "group_id": 35,
+        "phash": "c26b2d34613337f2",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\03fa456e-aa89-409f-a18c-42566f4b2882___UF.GRC_YLCV_Lab 01528.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\21a4dee8-257f-48ea-90d2-0d2402b1a88a___UF.GRC_YLCV_Lab 01524.JPG"
+        ]
+      },
+      {
+        "group_id": 36,
+        "phash": "d4934bcdb56e5230",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\104fc95d-88f5-4f2e-a3ea-bfcba37f6b9f___UF.GRC_YLCV_Lab 01854.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\4c773e62-28a8-4f16-a71f-7cdb1c5751e5___UF.GRC_YLCV_Lab 01855.JPG"
+        ]
+      },
+      {
+        "group_id": 37,
+        "phash": "81da7ce42693e31b",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\162a2c9a-53ec-468c-bbaa-145e7acdb8db___UF.GRC_YLCV_Lab 02537.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\21401648-7356-4019-9781-516afa0ff7c4___UF.GRC_YLCV_Lab 02527.JPG"
+        ]
+      },
+      {
+        "group_id": 38,
+        "phash": "a114fb4b85e4cee1",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\19ead445-c37c-4a22-b3fb-02510e66b553___UF.GRC_YLCV_Lab 01388.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\b379ab04-3780-4283-b388-2a038b773d79___UF.GRC_YLCV_Lab 01389.JPG"
+        ]
+      },
+      {
+        "group_id": 39,
+        "phash": "a537d2889f928cda",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\2ed63cde-c59e-45df-a38b-ee87197908bb___UF.GRC_YLCV_Lab 01623.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\7c215f7a-4aaf-4461-a727-7e4777daa562___UF.GRC_YLCV_Lab 01624.JPG"
+        ]
+      },
+      {
+        "group_id": 40,
+        "phash": "c23a2fddd0aa8533",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\3661efa4-82dc-488c-bade-d11056803e75___UF.GRC_YLCV_Lab 01760.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\45f05974-1b81-455b-8264-539c45ca1f75___UF.GRC_YLCV_Lab 01761.JPG"
+        ]
+      },
+      {
+        "group_id": 41,
+        "phash": "a8b6d3ca964dc661",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\37c2cc81-0d24-4030-9f76-399c29561b3f___UF.GRC_YLCV_Lab 02512.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\de775839-7363-47c7-bc42-7bff83af822a___UF.GRC_YLCV_Lab 02513.JPG"
+        ]
+      },
+      {
+        "group_id": 42,
+        "phash": "d55a6b0d9d343472",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\38df156b-eafd-4610-9649-67c51d016a13___UF.GRC_YLCV_Lab 01776.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\af67ecf5-473c-499e-9488-e0d349f90e9b___UF.GRC_YLCV_Lab 01777.JPG"
+        ]
+      },
+      {
+        "group_id": 43,
+        "phash": "b960971bf2386363",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\41aad915-6a72-497f-bb47-3d73d5c2c4cf___UF.GRC_YLCV_Lab 01934.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\a9171c0c-e224-4f8b-b84f-1caba2c3c989___UF.GRC_YLCV_Lab 01935.JPG"
+        ]
+      },
+      {
+        "group_id": 44,
+        "phash": "a3263891dbc91d7c",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\43aae6d1-40ae-42f4-8b71-ae9351683a90___UF.GRC_YLCV_Lab 02661.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\ea824bff-58c4-402e-936c-70bc49912701___UF.GRC_YLCV_Lab 02667.JPG"
+        ]
+      },
+      {
+        "group_id": 45,
+        "phash": "a99cd6c3e160b936",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\4ae45072-4db3-477d-9ace-9a08ce483d46___UF.GRC_YLCV_Lab 01407.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\9836e208-f2b2-4713-b258-6faec4e0043a___UF.GRC_YLCV_Lab 01408.JPG"
+        ]
+      },
+      {
+        "group_id": 46,
+        "phash": "e4b393c3d88c1be8",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\4bd2ccdd-172e-4314-bf8a-d04b6765b354___UF.GRC_YLCV_Lab 02469.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\b7b2732c-4481-4cbf-8dd0-8256642baf51___UF.GRC_YLCV_Lab 02455.JPG"
+        ]
+      },
+      {
+        "group_id": 47,
+        "phash": "a4161a79e3276e4e",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\55d128be-cc38-4493-ac46-16b931b41664___UF.GRC_YLCV_Lab 02542.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\ffb119bc-8d09-4f83-b1c5-483599a93d03___UF.GRC_YLCV_Lab 02541.JPG"
+        ]
+      },
+      {
+        "group_id": 48,
+        "phash": "a8c69e89cd993b32",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\61c03d35-853f-454b-8aff-7999536888a0___UF.GRC_YLCV_Lab 02448.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\b086e7d4-52fe-4779-b2a5-5927aec3e636___UF.GRC_YLCV_Lab 02437.JPG"
+        ]
+      },
+      {
+        "group_id": 49,
+        "phash": "a1367ec8f0b1991b",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\6243f4bc-d40f-4cae-bca1-7ed1206c2d0e___UF.GRC_YLCV_Lab 02620.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\76538e40-4986-4f01-bfdd-bd3d4f0453f1___UF.GRC_YLCV_Lab 02621.JPG"
+        ]
+      },
+      {
+        "group_id": 50,
+        "phash": "9e337067676e4c0c",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\68f8c73f-8682-424b-bb43-9d505c64423f___UF.GRC_YLCV_Lab 08438.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\8a92e970-1eb5-43f1-852e-2778ddde1503___UF.GRC_YLCV_Lab 08437.JPG"
+        ]
+      },
+      {
+        "group_id": 51,
+        "phash": "838e1f78e8353536",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\711f8839-09f1-4ca6-8681-57bba5be4b75___UF.GRC_YLCV_Lab 02646.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\9e962b25-a670-4e4c-bbf2-1adb5af08dfd___UF.GRC_YLCV_Lab 02648.JPG"
+        ]
+      },
+      {
+        "group_id": 52,
+        "phash": "b3c65c99e1326764",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\76762a24-0c95-40b2-b861-fc743293fb7d___UF.GRC_YLCV_Lab 02094.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\8e2f397f-3ebe-4b51-964b-e5d5372e0a8b___UF.GRC_YLCV_Lab 02095.JPG"
+        ]
+      },
+      {
+        "group_id": 53,
+        "phash": "e2839d9c38696367",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\7bff3fb7-788d-414c-bf0e-92a5ce4a4757___UF.GRC_YLCV_Lab 02064.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\b89e6dce-ebc9-4eac-a0f8-19e34657f6e1___UF.GRC_YLCV_Lab 02067.JPG"
+        ]
+      },
+      {
+        "group_id": 54,
+        "phash": "a9f4974bd2255e90",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\86089870-b24b-4509-abc3-f6c50fd07e49___UF.GRC_YLCV_Lab 01677.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\a6d9fce3-02d6-464c-bf8e-795b78dcc7e7___UF.GRC_YLCV_Lab 01667.JPG"
+        ]
+      },
+      {
+        "group_id": 55,
+        "phash": "87657c9a981b9365",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\8ae297ec-545c-467f-89f2-910b293fb9d0___UF.GRC_YLCV_Lab 01567.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\977a0667-709d-487f-8a93-7307452ee661___UF.GRC_YLCV_Lab 01566.JPG"
+        ]
+      },
+      {
+        "group_id": 56,
+        "phash": "eb8dc758bc7290a1",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\9dfccce4-a7a8-491c-b326-850bafbe8ff2___UF.GRC_YLCV_Lab 01640.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\a65c03a7-d1ef-4e78-931d-881d37383224___UF.GRC_YLCV_Lab 01641.JPG"
+        ]
+      },
+      {
+        "group_id": 57,
+        "phash": "8fe1389ac91dc369",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\a05153d6-05c7-4271-bd9e-60cbfbc8f8c7___UF.GRC_YLCV_Lab 01556.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\d6e66120-a71c-4df3-b7b2-e31bbcd83118___UF.GRC_YLCV_Lab 01557.JPG"
+        ]
+      },
+      {
+        "group_id": 58,
+        "phash": "91943fa5a47b0b6c",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\aa8abfe6-a4c1-48f9-9349-959bb9fdd830___UF.GRC_YLCV_Lab 01492.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\cbf86900-e987-4675-b7a3-23802305f415___UF.GRC_YLCV_Lab 01493.JPG"
+        ]
+      },
+      {
+        "group_id": 59,
+        "phash": "97717887689c366c",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\adb5b398-73ef-481c-90da-62bad3128135___UF.GRC_YLCV_Lab 08481.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\e5b39e29-e605-41fe-98ea-ba1e47f062b8___UF.GRC_YLCV_Lab 08475.JPG"
+        ]
+      },
+      {
+        "group_id": 60,
+        "phash": "8f987cece0e061c7",
+        "count": 2,
+        "paths": [
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\b9fee910-ba74-47a7-a83f-77d8db7391ea___UF.GRC_YLCV_Lab 03322.JPG",
+          "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\be67f74f-648f-4ab8-9478-76be838649a8___UF.GRC_YLCV_Lab 03321.JPG"
+        ]
+      }
+    ]
+  },
+  "cross_class_assignment": {
+    "cross_class_exact_hash_groups": 0,
+    "cross_class_exact_hash_details": [],
+    "cross_class_same_filename_groups": 0,
+    "cross_class_same_filename_details": [],
+    "single_class_assignment_verified": true
+  },
+  "leafmap_validation": {
+    "Tomato___Bacterial_spot": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 2128,
+      "actual_on_disk": 2127,
+      "missing_from_disk_count": 2128,
+      "missing_from_disk_sample": [
+        "GCREC_Bact.Sp 2946.JPG",
+        "GCREC_Bact.Sp 2947.JPG",
+        "GCREC_Bact.Sp 2948.JPG",
+        "GCREC_Bact.Sp 2949.JPG",
+        "GCREC_Bact.Sp 2950.JPG",
+        "GCREC_Bact.Sp 2951.JPG",
+        "GCREC_Bact.Sp 2952.JPG",
+        "GCREC_Bact.Sp 2953.JPG",
+        "GCREC_Bact.Sp 2954.JPG",
+        "GCREC_Bact.Sp 2955.JPG"
+      ],
+      "extra_on_disk_count": 2127,
+      "extra_on_disk_sample": [
+        "00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp 3110.JPG",
+        "0045ba29-ed1b-43b4-afde-719cc7adefdb___GCREC_Bact.Sp 6254.JPG",
+        "00639d29-2d1a-4fcf-9bd3-a2b3109c74c4___UF.GRC_BS_Lab Leaf 1054.JPG",
+        "00728f4d-83a0-49f1-87f8-374646fcda05___GCREC_Bact.Sp 6326.JPG",
+        "00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp 5807.JPG",
+        "00b7e89a-e129-4576-b51f-48923888bff9___GCREC_Bact.Sp 6202.JPG",
+        "01375198-62af-4c40-bddf-f3c11107200b___GCREC_Bact.Sp 5914.JPG",
+        "014b58ae-091b-408a-ab4a-5a780cd1c3f3___GCREC_Bact.Sp 2971.JPG",
+        "01a3cf3f-94c1-44d5-8972-8c509d62558e___GCREC_Bact.Sp 3396.JPG",
+        "01a46cb5-d354-4f59-868e-e56186701541___GCREC_Bact.Sp 5638.JPG"
+      ]
+    },
+    "Tomato___Early_blight": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 1000,
+      "actual_on_disk": 1000,
+      "missing_from_disk_count": 1000,
+      "missing_from_disk_sample": [
+        "RS_Erly.B 6330.JPG",
+        "RS_Erly.B 6331.JPG",
+        "RS_Erly.B 6332.JPG",
+        "RS_Erly.B 6333.JPG",
+        "RS_Erly.B 6336.JPG",
+        "RS_Erly.B 6337.JPG",
+        "RS_Erly.B 6339.JPG",
+        "RS_Erly.B 6340.JPG",
+        "RS_Erly.B 6341 (Kelsee Baranowski's conflicted copy 2015-10-06).JPG",
+        "RS_Erly.B 6342.JPG"
+      ],
+      "extra_on_disk_count": 1000,
+      "extra_on_disk_sample": [
+        "0012b9d2-2130-4a06-a834-b1f3af34f57e___RS_Erly.B 8389.JPG",
+        "0034a551-9512-44e5-ba6c-827f85ecc688___RS_Erly.B 9432.JPG",
+        "004cbe60-8ff9-4965-92df-e86694d5e9ba___RS_Erly.B 8253.JPG",
+        "00c5c908-fc25-4710-a109-db143da23112___RS_Erly.B 7778.JPG",
+        "00e7c4b2-3005-4558-9cfa-235e356cb7a8___RS_Erly.B 7844.JPG",
+        "0114f7b3-7f56-4bef-aa47-7a82da142d4b___RS_Erly.B 7437.JPG",
+        "011aa278-a39e-40b0-b6e4-2e2f835889f0___RS_Erly.B 8251.JPG",
+        "01861c93-ea8b-4820-aaa8-cc6003b3e75b___RS_Erly.B 7855.JPG",
+        "01f87f04-ff38-4aba-b7d1-587aa06e5282___RS_Erly.B 7851.JPG",
+        "0208ed52-1b28-4c9c-88e3-4667581e1109___RS_Erly.B 7829.JPG"
+      ]
+    },
+    "Tomato___healthy": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 1000,
+      "actual_on_disk": 1591,
+      "missing_from_disk_count": 1000,
+      "missing_from_disk_sample": [
+        "RS_HL 0003.JPG",
+        "RS_HL 0004.JPG",
+        "RS_HL 0005.JPG",
+        "RS_HL 0006.JPG",
+        "RS_HL 0007.JPG",
+        "RS_HL 0008.JPG",
+        "RS_HL 0009.JPG",
+        "RS_HL 0010.JPG",
+        "RS_HL 0011.JPG",
+        "RS_HL 0012.JPG"
+      ],
+      "extra_on_disk_count": 1591,
+      "extra_on_disk_sample": [
+        "000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL Leaf 259.1.JPG",
+        "000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.JPG",
+        "0031da2a-8edd-468f-a8b1-106657717a32___RS_HL 0105.JPG",
+        "003944fc-3b99-4a0f-9ed4-0e07352fd8b3___RS_HL 9844.JPG",
+        "00bce074-967b-4d50-967a-31fdaa35e688___RS_HL 0223.JPG",
+        "014b5e19-7917-4d76-b632-b5dd31d999ec___RS_HL 9640.JPG",
+        "01700b46-3800-46c6-ab81-09a5f50af525___RS_HL 0108.JPG",
+        "0172e56c-8bb8-4e75-8ac7-509df81393e8___RS_HL 0580.JPG",
+        "017a4026-813a-4983-887a-4052bb78c397___RS_HL 0218.JPG",
+        "0184dc6b-bfc1-4515-ac59-bbadaf524e1a___GH_HL Leaf 422.1.JPG"
+      ]
+    },
+    "Tomato___Late_blight": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 920,
+      "actual_on_disk": 1909,
+      "missing_from_disk_count": 920,
+      "missing_from_disk_sample": [
+        "RS_Late.B 4827.JPG",
+        "RS_Late.B 4828.JPG",
+        "RS_Late.B 4829.JPG",
+        "RS_Late.B 4831.JPG",
+        "RS_Late.B 4832.JPG",
+        "RS_Late.B 4833.JPG",
+        "RS_Late.B 4834.JPG",
+        "RS_Late.B 4836.JPG",
+        "RS_Late.B 4837.JPG",
+        "RS_Late.B 4838.JPG"
+      ],
+      "extra_on_disk_count": 1909,
+      "extra_on_disk_sample": [
+        "0003faa8-4b27-4c65-bf42-6d9e352ca1a5___RS_Late.B 4946.JPG",
+        "00355ec2-f12c-4015-b8f9-94354f69ce22___RS_Late.B 5311.JPG",
+        "005a2c1f-4e15-49e4-9e5c-61dc3ecf9708___RS_Late.B 5096.JPG",
+        "005e3b43-9050-47da-9498-f9ecdcc703b3___RS_Late.B 5104.JPG",
+        "008ebb44-eb77-4843-b621-4b88b5df7d43___RS_Late.B 5188.JPG",
+        "00ce4c63-9913-4b16-898c-29f99acf0dc3___RS_Late.B 4982.JPG",
+        "013f987a-9371-4763-a104-ea6f326e584b___GHLB2 Leaf 8556.JPG",
+        "01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2 Leaf 9100.JPG",
+        "014d4972-1301-46d3-afc4-56470b774137___GHLB2 Leaf 8831.JPG",
+        "014eee0c-8000-4762-b4b8-63ecc2fadc13___GHLB2ES Leaf 69.1.JPG"
+      ]
+    },
+    "Tomato___Leaf_Mold": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 952,
+      "actual_on_disk": 952,
+      "missing_from_disk_count": 952,
+      "missing_from_disk_sample": [
+        "Crnl_L.Mold 6496.JPG",
+        "Crnl_L.Mold 6497.JPG",
+        "Crnl_L.Mold 6498.JPG",
+        "Crnl_L.Mold 6499.JPG",
+        "Crnl_L.Mold 6500.JPG",
+        "Crnl_L.Mold 6501.JPG",
+        "Crnl_L.Mold 6502.JPG",
+        "Crnl_L.Mold 6504.JPG",
+        "Crnl_L.Mold 6505.JPG",
+        "Crnl_L.Mold 6506.JPG"
+      ],
+      "extra_on_disk_count": 952,
+      "extra_on_disk_sample": [
+        "00694db7-3327-45e0-b4da-a8bb7ab6a4b7___Crnl_L.Mold 6923.JPG",
+        "0160c3b5-d89e-40e5-a313-49ae1524040a___Crnl_L.Mold 6823.JPG",
+        "0185befe-f0b5-4848-9677-f33c2237f4e9___Crnl_L.Mold 8729.JPG",
+        "022a4dfb-84cc-45cb-81c5-a620817e31cb___Crnl_L.Mold 6926.JPG",
+        "02415b3d-2ba8-4654-8398-a480ad901bbf___Crnl_L.Mold 8645.JPG",
+        "02a29ab9-8cba-47a0-bc2f-e7af7dbae149___Crnl_L.Mold 7165.JPG",
+        "030ea180-4eb5-4f91-918e-56c7cfe2c001___Crnl_L.Mold 7076.JPG",
+        "036d12b0-1e97-4975-bd80-a8a3c48588e7___Crnl_L.Mold 6500.JPG",
+        "039183dc-a260-49fa-b28a-0c8f11614896___Crnl_L.Mold 6720.JPG",
+        "03c6374e-c292-440e-b2e3-a70c5e64562a___Crnl_L.Mold 8935.JPG"
+      ]
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 1000,
+      "actual_on_disk": 1771,
+      "missing_from_disk_count": 1000,
+      "missing_from_disk_sample": [
+        "Matt.S_CG 0662.JPG",
+        "Matt.S_CG 0663.JPG",
+        "Matt.S_CG 0665.JPG",
+        "Matt.S_CG 0666.JPG",
+        "Matt.S_CG 0667.JPG",
+        "Matt.S_CG 0669.JPG",
+        "Matt.S_CG 0670.JPG",
+        "Matt.S_CG 0671.JPG",
+        "Matt.S_CG 0672.JPG",
+        "Matt.S_CG 0673.JPG"
+      ],
+      "extra_on_disk_count": 1771,
+      "extra_on_disk_sample": [
+        "002533c1-722b-44e5-9d2e-91f7747b2543___Keller.St_CG 1831.JPG",
+        "0025c401-7785-49c5-8bef-780a8a0d3652___Matt.S_CG 2694.JPG",
+        "006c018a-bb21-4a24-b1ff-d8b2864a7354___Matt.S_CG 6192.JPG",
+        "009bb542-f0c0-40f2-98a7-f547c5adec45___Matt.S_CG 1355.JPG",
+        "009ce7ca-77de-4e4e-9f59-bec9162df779___Matt.S_CG 7403.JPG",
+        "00f16858-f392-4d9e-ad9f-efab8049a13f___JR_Sept.L.S 8368.JPG",
+        "015c2613-fb1c-4f31-88f1-c7e5be9ddc97___JR_Sept.L.S 8431.JPG",
+        "0176f68f-a3d8-473b-9bea-c075a5507b34___JR_Sept.L.S 2504.JPG",
+        "01f54ad9-9c03-4ffd-86f4-829fc2939120___Matt.S_CG 0702.JPG",
+        "021f9747-f308-4694-859b-10f541a0e63c___JR_Sept.L.S 2506.JPG"
+      ]
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 1676,
+      "actual_on_disk": 1676,
+      "missing_from_disk_count": 1676,
+      "missing_from_disk_sample": [
+        "Com.G_SpM_FL 1133.JPG",
+        "Com.G_SpM_FL 1134.JPG",
+        "Com.G_SpM_FL 1135.JPG",
+        "Com.G_SpM_FL 1136.JPG",
+        "Com.G_SpM_FL 1137.JPG",
+        "Com.G_SpM_FL 1138.JPG",
+        "Com.G_SpM_FL 1139.JPG",
+        "Com.G_SpM_FL 1140.JPG",
+        "Com.G_SpM_FL 1141.JPG",
+        "Com.G_SpM_FL 1142.JPG"
+      ],
+      "extra_on_disk_count": 1676,
+      "extra_on_disk_sample": [
+        "002835d1-c18e-4471-aa6e-8d8c29585e9b___Com.G_SpM_FL 8584.JPG",
+        "003b7929-a364-4e74-be1c-37c4c0a6ec63___Com.G_SpM_FL 1414.JPG",
+        "00bc7858-1dca-4bfb-a828-225f03bd72a5___Com.G_SpM_FL 9455.JPG",
+        "00c8e9a0-1fb8-434b-8981-25511358ddc9___Com.G_SpM_FL 8717.JPG",
+        "00fa99e8-2605-4d72-be69-98277587d84b___Com.G_SpM_FL 1453.JPG",
+        "0100e504-f6bc-464a-a181-38262117f30a___Com.G_SpM_FL 1202.JPG",
+        "01027422-5838-4aaf-a517-01ea4e2cb6b9___Com.G_SpM_FL 9256.JPG",
+        "012369f5-ca64-4811-888f-35d75f7f7c2b___Com.G_SpM_FL 8911.JPG",
+        "01720a27-7595-496b-bf53-dbe5c8c1e2c3___Com.G_SpM_FL 8476.JPG",
+        "01854aac-d409-4136-b885-3df6943cc349___Com.G_SpM_FL 1374.JPG"
+      ]
+    },
+    "Tomato___Target_Spot": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 1404,
+      "actual_on_disk": 1404,
+      "missing_from_disk_count": 1404,
+      "missing_from_disk_sample": [
+        "Com.G_FL 0004.JPG",
+        "Com.G_FL 0005.JPG",
+        "Com.G_FL 0006.JPG",
+        "Com.G_FL 0007.JPG",
+        "Com.G_FL 0008.JPG",
+        "Com.G_FL 0009.JPG",
+        "Com.G_FL 0010.JPG",
+        "Com.G_FL 0011.JPG",
+        "Com.G_FL 0012.JPG",
+        "Com.G_FL 0013.JPG"
+      ],
+      "extra_on_disk_count": 1404,
+      "extra_on_disk_sample": [
+        "002213fb-b620-4593-b9ac-6a6cc119b100___Com.G_TgS_FL 8360.JPG",
+        "003a5321-0430-42dd-a38d-30ac4563f4ba___Com.G_TgS_FL 8121.JPG",
+        "0044d10f-7062-4655-8abd-9fffc5b2f152___Com.G_TgS_FL 7908.JPG",
+        "007ec913-8cfe-43ed-b458-f041a17266ae___Com.G_TgS_FL 9844.JPG",
+        "00854623-ba28-446d-a1d5-03c0ae3f99d9___Com.G_TgS_FL 7949.JPG",
+        "0118c27a-f34a-41e1-8b2f-d2c564f83c5c___Com.G_TgS_FL 0013.JPG",
+        "0118ed61-b135-45be-ad81-7e2d54203be4___Com.G_TgS_FL 8241.JPG",
+        "0197df47-a9cb-4b6c-b72c-ac0e9af6d135___Com.G_TgS_FL 0779.JPG",
+        "01b2013e-4030-4cd0-843c-2dbacf5f3758___Com.G_TgS_FL 8398.JPG",
+        "01e0b8b1-e713-4c6d-973b-f7636280c58a___Com.G_TgS_FL 9816.JPG"
+      ]
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "leafmap_exists": false,
+      "expected_from_leafmap": null,
+      "actual_on_disk": 373,
+      "missing_from_disk": [],
+      "extra_on_disk": []
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "leafmap_exists": true,
+      "expected_from_leafmap": 2740,
+      "actual_on_disk": 5357,
+      "missing_from_disk_count": 2740,
+      "missing_from_disk_sample": [
+        "YLCV_GCREC 1895.JPG",
+        "YLCV_GCREC 1896.JPG",
+        "YLCV_GCREC 1897.JPG",
+        "YLCV_GCREC 1898.JPG",
+        "YLCV_GCREC 1899.JPG",
+        "YLCV_GCREC 1900.JPG",
+        "YLCV_GCREC 1901.JPG",
+        "YLCV_GCREC 1902.JPG",
+        "YLCV_GCREC 1903.JPG",
+        "YLCV_GCREC 1904.JPG"
+      ],
+      "extra_on_disk_count": 5357,
+      "extra_on_disk_sample": [
+        "00139ae8-d881-4edb-925f-46584b0bd68c___YLCV_NREC 2944.JPG",
+        "0036c89d-7743-4895-9fcf-b8d2c1fc8455___YLCV_NREC 0313.JPG",
+        "003bce78-28c9-4612-b148-f621e9a23bd4___YLCV_GCREC 5154.JPG",
+        "004273e3-e283-4ec6-b597-d0de1bfbc590___YLCV_GCREC 2434.JPG",
+        "00576ef6-6fa0-40d2-b365-87850597bafd___UF.GRC_YLCV_Lab 01999.JPG",
+        "0068fe04-aa0c-4d92-8af0-f05c9d8db6eb___UF.GRC_YLCV_Lab 01755.JPG",
+        "006c18c6-2486-412b-8113-956819390392___YLCV_NREC 2629.JPG",
+        "009dd1f5-281a-4e54-9f80-a068d0d8cfcd___YLCV_NREC 2162.JPG",
+        "00a538f3-8421-43ab-9e6f-758d36180dd3___YLCV_NREC 2667.JPG",
+        "00b41556-fe22-41fb-93aa-76b0c45d923a___UF.GRC_YLCV_Lab 02644.JPG"
+      ]
+    }
+  },
+  "issues": {
+    "corrupted": [],
+    "zero_byte": [],
+    "hidden_files": [],
+    "invalid_filenames": [],
+    "unsupported_formats": []
+  },
+  "recommended_next_actions": [
+    "Proceed with read-only preprocessing pipeline design for tomato using PlantVillage raw/color as source.",
+    "Define canonical folder names and class mapping YAML (10 classes including Tomato mosaic virus).",
+    "Review 14 exact duplicate(s) before training; deduplicate during preprocessing.",
+    "Review 47 near-duplicate(s); apply perceptual-hash dedup (threshold=5) like grape.",
+    "Address class imbalance (ratio 14.362:1): consider undersampling majority class 'Tomato___Tomato_Yellow_Leaf_Curl_Virus' or augmenting minority class 'Tomato___Tomato_mosaic_virus'.",
+    "Investigate 12820 file(s) referenced in leaf maps but missing on disk.",
+    "Copy tomato classes to datasets/tomato/raw/ without modifying PlantVillage source.",
+    "Run corruption check and duplicate detection in preprocessing before train/val/test split."
+  ]
+}

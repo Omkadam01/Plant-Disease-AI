@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "crop": "tomato",
+    "source_root": "C:\\Projects\\Plant_Disease_v3\\datasets\\tomato\\raw",
+    "destination_root": "C:\\Projects\\Plant_Disease_v3\\datasets\\tomato\\split",
+    "generated_at": "2026-07-22T18:27:07.210976+00:00",
+    "random_seed": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "stratified": true,
+    "deterministic": true
+  },
+  "summary": {
+    "total_images": 18098,
+    "train_count": 12669,
+    "val_count": 2716,
+    "test_count": 2713,
+    "split_percentages": {
+      "train": 70.0,
+      "val": 15.01,
+      "test": 14.99
+    }
+  },
+  "per_class_distribution": {
+    "Tomato___Bacterial_spot": {
+      "train": 1485,
+      "val": 319,
+      "test": 318
+    },
+    "Tomato___Early_blight": {
+      "train": 700,
+      "val": 150,
+      "test": 150
+    },
+    "Tomato___Late_blight": {
+      "train": 1330,
+      "val": 285,
+      "test": 285
+    },
+    "Tomato___Leaf_Mold": {
+      "train": 666,
+      "val": 143,
+      "test": 142
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "train": 1240,
+      "val": 265,
+      "test": 266
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "train": 1170,
+      "val": 251,
+      "test": 250
+    },
+    "Tomato___Target_Spot": {
+      "train": 983,
+      "val": 211,
+      "test": 210
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "train": 3730,
+      "val": 799,
+      "test": 800
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "train": 260,
+      "val": 56,
+      "test": 56
+    },
+    "Tomato___healthy": {
+      "train": 1105,
+      "val": 237,
+      "test": 236
+    }
+  },
+  "validation": {
+    "every_image_assigned_once": true,
+    "no_cross_split_duplicates": true,
+    "no_duplicate_filenames_in_class": true,
+    "all_images_open": true,
+    "all_rgb": true,
+    "all_256x256": true,
+    "all_classes_in_all_splits": true,
+    "total_source_images": 18098,
+    "total_split_images": 18098,
+    "missing_from_assignment": [],
+    "extra_in_assignment": [],
+    "cross_split_overlaps": 0,
+    "classes_missing_split": [],
+    "issues": [],
+    "passed": true
+  },
+  "warnings": []
+}

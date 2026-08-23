@@ -1,0 +1,111 @@
+# PlantDiseaseAI - Base Configuration
+# All crop-specific configs inherit from this file.
+
+project:
+  name: PlantDiseaseAI
+  version: "1.0.0"
+  seed: 42
+
+paths:
+  root: .
+  logs: Outputs/runtime/logs
+  weights: Models/weights
+  exports: Outputs/exports
+
+logging:
+  level: INFO
+  format: "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+  file_enabled: true
+  console_enabled: true
+
+device:
+  auto_select: true
+  preferred: cuda  # cuda | cpu | mps
+
+preprocessing:
+  image_extensions:
+    - .jpg
+    - .jpeg
+    - .png
+    - .bmp
+    - .tif
+    - .tiff
+  min_image_size: 32
+  max_image_size: 4096
+  near_duplicate_threshold: 5  # Hamming distance for perceptual hash
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  stratify: true
+  copy_files: true  # false = symlink on supported platforms
+
+training:
+  model_name: efficientnet_b0
+  num_epochs: 50
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
+  image_size: 224
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  label_smoothing: 0.0
+  mixed_precision: true
+  gradient_clip_norm: 1.0
+  early_stopping:
+    enabled: true
+    patience: 10
+    min_delta: 0.001
+    monitor: val_loss
+    mode: min
+  scheduler:
+    name: cosine
+    warmup_epochs: 2
+    min_lr: 0.00001
+  checkpoint:
+    save_every_n_epochs: 5
+    keep_last_n: 3
+    save_best: true
+  resume: false
+  resume_checkpoint: null
+  use_class_weights: true
+  tensorboard: true
+
+evaluation:
+  batch_size: 32
+  num_workers: 4
+  generate_plots: true
+  save_predictions: true
+
+export:
+  formats:
+    - torchscript
+    - onnx
+  onnx:
+    opset_version: 17
+    dynamic_batch: false
+  torchscript:
+    method: trace  # trace | script
+
+inference:
+  backend: pytorch  # pytorch | torchscript | onnx
+  top_k: 3
+  confidence_threshold: 0.0
+  enable_gradcam: true
+
+desktop_app:
+  theme: light
+  window:
+    width: 1200
+    height: 800
+    min_width: 900
+    min_height: 600
+  inference_backend: pytorch
+  save_predictions_dir: Outputs/runtime/predictions
+  camera:
+    backend: auto        # auto | opencv | picamera2
+    index: 0
+    device_path: null    # optional, e.g. /dev/video0
+    width: 640
+    height: 480
+    warmup_frames: 5

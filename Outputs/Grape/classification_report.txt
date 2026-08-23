@@ -1,0 +1,10 @@
+                                    precision    recall  f1-score   support
+
+                         Black Rot       1.00      1.00      1.00       177
+              Esca (Black Measles)       1.00      1.00      1.00       207
+Leaf Blight (Isariopsis Leaf Spot)       1.00      1.00      1.00       162
+                           Healthy       1.00      1.00      1.00        64
+
+                          accuracy                           1.00       610
+                         macro avg       1.00      1.00      1.00       610
+                      weighted avg       1.00      1.00      1.00       610

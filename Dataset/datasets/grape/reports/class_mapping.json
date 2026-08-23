@@ -1,0 +1,48 @@
+{
+  "crop": "grape",
+  "num_classes": 4,
+  "classes": [
+    {
+      "id": 0,
+      "folder_name": "Black_Rot",
+      "display_name": "Black Rot",
+      "slug": "black_rot"
+    },
+    {
+      "id": 1,
+      "folder_name": "Esca",
+      "display_name": "Esca (Black Measles)",
+      "slug": "esca"
+    },
+    {
+      "id": 2,
+      "folder_name": "Leaf_Blight",
+      "display_name": "Leaf Blight (Isariopsis Leaf Spot)",
+      "slug": "leaf_blight"
+    },
+    {
+      "id": 3,
+      "folder_name": "Healthy",
+      "display_name": "Healthy",
+      "slug": "healthy"
+    }
+  ],
+  "folder_to_id": {
+    "Black_Rot": 0,
+    "Esca": 1,
+    "Leaf_Blight": 2,
+    "Healthy": 3
+  },
+  "id_to_display": {
+    "0": "Black Rot",
+    "1": "Esca (Black Measles)",
+    "2": "Leaf Blight (Isariopsis Leaf Spot)",
+    "3": "Healthy"
+  },
+  "id_to_slug": {
+    "0": "black_rot",
+    "1": "esca",
+    "2": "leaf_blight",
+    "3": "healthy"
+  }
+}

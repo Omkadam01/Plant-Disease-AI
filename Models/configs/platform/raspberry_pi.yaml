@@ -1,0 +1,20 @@
+# Auto-applied on Raspberry Pi (Linux ARM) at runtime.
+
+device:
+  preferred: cpu
+  auto_select: true
+
+desktop_app:
+  camera:
+    backend: auto
+    index: 0
+    device_path: null
+    # Lower resolution reduces RAM use on Pi 4/5 and avoids Capture crashes.
+    width: 480
+    height: 360
+    warmup_frames: 4
+
+inference:
+  # Grad-CAM on by default; Pi uses a low-RAM overlay path in code.
+  enable_gradcam: true
+  pi_gradcam_max_side: 224

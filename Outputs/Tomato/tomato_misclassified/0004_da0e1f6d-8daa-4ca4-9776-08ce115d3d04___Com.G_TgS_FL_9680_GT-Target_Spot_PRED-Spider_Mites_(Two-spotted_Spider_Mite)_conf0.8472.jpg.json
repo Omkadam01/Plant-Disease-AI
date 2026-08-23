@@ -1,0 +1,6 @@
+{
+  "original_path": "datasets/tomato/split/test/Tomato___Target_Spot/da0e1f6d-8daa-4ca4-9776-08ce115d3d04___Com.G_TgS_FL 9680.jpg",
+  "ground_truth": "Target Spot",
+  "predicted_class": "Spider Mites (Two-spotted Spider Mite)",
+  "confidence": 0.8472241163253784
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "crop": "tomato",
+    "source_root": "C:\\Projects\\Plant_Disease_v3\\PlantVillage-Dataset\\raw\\color",
+    "destination_root": "C:\\Projects\\Plant_Disease_v3\\datasets\\tomato\\raw",
+    "generated_at": "2026-07-22T18:20:56.451987+00:00",
+    "near_duplicate_threshold": 5,
+    "hash_algorithm_exact": "sha256",
+    "hash_algorithm_near": "phash",
+    "deterministic": true
+  },
+  "summary": {
+    "images_copied": 18098,
+    "exact_duplicates_removed": 14,
+    "near_duplicates_removed": 48,
+    "files_skipped": 0,
+    "final_image_count": 18098,
+    "images_per_class": {
+      "Tomato___Bacterial_spot": 2122,
+      "Tomato___Early_blight": 1000,
+      "Tomato___healthy": 1578,
+      "Tomato___Late_blight": 1900,
+      "Tomato___Leaf_Mold": 951,
+      "Tomato___Septoria_leaf_spot": 1771,
+      "Tomato___Spider_mites Two-spotted_spider_mite": 1671,
+      "Tomato___Target_Spot": 1404,
+      "Tomato___Tomato_mosaic_virus": 372,
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 5329
+    }
+  },
+  "validation": {
+    "all_images_open": true,
+    "all_rgb": true,
+    "all_256x256": true,
+    "single_class_assignment": true,
+    "no_duplicate_filenames": true,
+    "no_empty_folders": true,
+    "issues": [],
+    "passed": true
+  },
+  "warnings": [],
+  "skipped_samples": [],
+  "skipped_by_reason": {}
+}

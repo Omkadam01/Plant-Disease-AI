@@ -1,0 +1,6 @@
+{
+  "original_path": "datasets/tomato/split/test/Tomato___Early_blight/4fd3f0e7-cdd9-4151-8734-5f0ad1f52614___RS_Erly.B 9564.jpg",
+  "ground_truth": "Early Blight",
+  "predicted_class": "Late Blight",
+  "confidence": 0.9869270920753479
+}

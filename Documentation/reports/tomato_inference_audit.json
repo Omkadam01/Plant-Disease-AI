@@ -1,0 +1,107 @@
+{
+  "crop": "tomato",
+  "sample_image": "datasets\\tomato\\split\\test\\Tomato___healthy\\0326b4b6-0f25-47af-bfd9-d8fec314a4f5___RS_HL 0621.jpg",
+  "evaluation": {
+    "pipeline": "evaluation",
+    "ground_truth_index": 2,
+    "weights_path": "C:\\Projects\\Plant_Disease_v3\\weights\\tomato\\best_model.pth",
+    "class_mapping_path": "C:\\Projects\\Plant_Disease_v3\\datasets\\tomato\\reports\\class_mapping.json",
+    "image_size": 256,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "transform": "get_val_transforms (Resize + Normalize + ToTensorV2)",
+    "rgb_conversion": "read_image_rgb via dataset",
+    "pred_idx": 2,
+    "pred_name": "Healthy",
+    "top3": [
+      [
+        2,
+        1.0,
+        "Healthy"
+      ],
+      [
+        6,
+        1.7640938709817533e-10,
+        "Spider Mites (Two-spotted Spider Mite)"
+      ],
+      [
+        3,
+        9.181108651112879e-11,
+        "Late Blight"
+      ]
+    ]
+  },
+  "desktop": {
+    "pipeline": "desktop",
+    "weights_path": "C:\\Projects\\Plant_Disease_v3\\weights\\tomato\\best_model.pth",
+    "class_mapping_path": "C:\\Projects\\Plant_Disease_v3\\datasets\\tomato\\reports\\class_mapping.json",
+    "image_size": 256,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "transform": "get_inference_transforms (= get_val_transforms)",
+    "rgb_conversion": "read_image_rgb in _preprocess",
+    "pred_idx": 2,
+    "pred_name": "Healthy",
+    "top3": [
+      [
+        2,
+        1.0,
+        "Healthy"
+      ],
+      [
+        6,
+        1.7640938709817533e-10,
+        "Spider Mites (Two-spotted Spider Mite)"
+      ],
+      [
+        3,
+        9.181108651112879e-11,
+        "Late Blight"
+      ]
+    ],
+    "result_top3": [
+      [
+        2,
+        1.0,
+        "Healthy"
+      ],
+      [
+        6,
+        1.7640938709817533e-10,
+        "Spider Mites (Two-spotted Spider Mite)"
+      ],
+      [
+        3,
+        9.181108651112879e-11,
+        "Late Blight"
+      ]
+    ]
+  },
+  "comparison": {
+    "weights_match": true,
+    "mapping_match": true,
+    "image_size_match": true,
+    "pred_idx_match": true,
+    "pred_name_match": true,
+    "top3_idx_match": true,
+    "max_logits_diff": 0.0,
+    "max_probs_diff": 0.0,
+    "pipelines_aligned": true
+  }
+}

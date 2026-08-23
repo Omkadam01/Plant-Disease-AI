@@ -1,0 +1,92 @@
+{
+  "crop": "tomato",
+  "num_classes": 10,
+  "classes": [
+    {
+      "id": 0,
+      "folder_name": "Tomato___Bacterial_spot",
+      "display_name": "Bacterial Spot",
+      "slug": "bacterial_spot"
+    },
+    {
+      "id": 1,
+      "folder_name": "Tomato___Early_blight",
+      "display_name": "Early Blight",
+      "slug": "early_blight"
+    },
+    {
+      "id": 2,
+      "folder_name": "Tomato___healthy",
+      "display_name": "Healthy",
+      "slug": "healthy"
+    },
+    {
+      "id": 3,
+      "folder_name": "Tomato___Late_blight",
+      "display_name": "Late Blight",
+      "slug": "late_blight"
+    },
+    {
+      "id": 4,
+      "folder_name": "Tomato___Leaf_Mold",
+      "display_name": "Leaf Mold",
+      "slug": "leaf_mold"
+    },
+    {
+      "id": 5,
+      "folder_name": "Tomato___Septoria_leaf_spot",
+      "display_name": "Septoria Leaf Spot",
+      "slug": "septoria_leaf_spot"
+    },
+    {
+      "id": 6,
+      "folder_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "display_name": "Spider Mites (Two-spotted Spider Mite)",
+      "slug": "spider_mites"
+    },
+    {
+      "id": 7,
+      "folder_name": "Tomato___Target_Spot",
+      "display_name": "Target Spot",
+      "slug": "target_spot"
+    },
+    {
+      "id": 8,
+      "folder_name": "Tomato___Tomato_mosaic_virus",
+      "display_name": "Tomato Mosaic Virus",
+      "slug": "tomato_mosaic_virus"
+    },
+    {
+      "id": 9,
+      "folder_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "display_name": "Tomato Yellow Leaf Curl Virus",
+      "slug": "tomato_yellow_leaf_curl_virus"
+    }
+  ],
+  "folder_to_id": {
+    "Tomato___Bacterial_spot": 0,
+    "Tomato___Early_blight": 1,
+    "Tomato___healthy": 2,
+    "Tomato___Late_blight": 3,
+    "Tomato___Leaf_Mold": 4,
+    "Tomato___Septoria_leaf_spot": 5,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 6,
+    "Tomato___Target_Spot": 7,
+    "Tomato___Tomato_mosaic_virus": 8,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 9
+  },
+  "id_to_display": {
+    "0": "Bacterial Spot",
+    "1": "Early Blight",
+    "2": "Healthy",
+    "3": "Late Blight",
+    "4": "Leaf Mold",
+    "5": "Septoria Leaf Spot",
+    "6": "Spider Mites (Two-spotted Spider Mite)",
+    "7": "Target Spot",
+    "8": "Tomato Mosaic Virus",
+    "9": "Tomato Yellow Leaf Curl Virus"
+  },
+  "model_name": "efficientnet_b0",
+  "image_size": 256
+}

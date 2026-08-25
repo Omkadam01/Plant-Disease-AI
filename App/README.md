@@ -1,13 +1,7 @@
 # Application
 
-The working PySide6 desktop application is preserved here.
+Plant Disease AI is the Windows desktop application for grape and tomato leaf-disease classification using the repository's final EfficientNet-B0 models. It supports image and camera input, Grad-CAM visualization, English/Hindi/Marathi interface text, and optional Groq guidance.
 
-- Entry point: `python App/run_app.py`
-- `desktop_app/` — UI, controller, services, widgets, camera integration, and translations interface.
-- `resources/` — app icon and English, Hindi, and Marathi translation files.
-- `utils/` — configuration, image, device, logging, platform, and runtime-path helpers.
-- `setup.ps1` / `setup.sh` — environment setup helpers.
-- Raspberry Pi launch, camera, and autostart helpers are also retained.
+Run `Plant-Disease-AI.exe` from this folder. Keep the repository's `Models/` and `Dataset/` folders beside `App/`; the executable reads the final model weights, YAML configuration, and class mappings from them. Python is not required to run the executable.
 
-There is no prebuilt EXE or installer. Optional Groq guidance uses a user-created root `.env` based on `.env.example`.
-
+`app.py` is the consolidated source entry point. `Plant-Disease-AI.iss` is an Inno Setup 6 script that packages the executable with the required external model configuration, weights, and class mappings. The executable was built and tested on 64-bit Windows 11; other Windows versions were not verified.

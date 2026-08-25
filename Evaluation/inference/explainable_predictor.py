@@ -14,7 +14,7 @@ import torch
 
 from inference.gradcam import GradCAMOutputs, generate_gradcam
 from inference.predictor import Predictor, PredictionResult, TopPrediction
-from training.transforms import IMAGENET_MEAN, IMAGENET_STD
+from preprocessing.transforms import IMAGENET_MEAN, IMAGENET_STD
 from utils.image_utils import read_image_rgb
 from utils.platform import is_raspberry_pi
 

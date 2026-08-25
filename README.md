@@ -6,8 +6,8 @@ Plant Disease AI is a PySide6 desktop application for classifying grape and toma
 
 | Crop | Classes | Input | Checkpoint | Retained test result |
 |---|---:|---:|---|---:|
-| Grape | 4 | 224 × 224 | `Models/weights/grape/best_model.pth` | 100% on 610 PlantVillage test images |
-| Tomato | 10 | 256 × 256 | `Models/weights/tomato/best_model.pth` | 99.85% on 2,713 PlantVillage test images |
+| Grape | 4 | 224 × 224 | `Models/Final_Model/grape/best_model.pth` | 100% on 610 PlantVillage test images |
+| Tomato | 10 | 256 × 256 | `Models/Final_Model/tomato/best_model.pth` | 99.85% on 2,713 PlantVillage test images |
 
 The recorded results are limited to held-out PlantVillage images and do not establish field performance. The retained tomato analysis documents overconfident predictions on out-of-distribution inputs.
 
@@ -17,18 +17,26 @@ Raw PlantVillage images and prepared train/validation/test splits are not includ
 
 ## Run the application
 
+On 64-bit Windows 11, run the tested standalone delivery without installing Python:
+
+```powershell
+App\Plant-Disease-AI.exe
+```
+
+Keep `App/`, `Models/`, and `Dataset/` in their repository layout because the executable reads the final weights, configuration, and class mappings from those folders.
+
 Python 3.11 was the documented development target.
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-python App\run_app.py
+python App\app.py
 ```
 
-On Linux or macOS, activate with `source .venv/bin/activate` and run `python App/run_app.py`. Use `--crop tomato` to open with the tomato model selected.
+On Linux or macOS, activate with `source .venv/bin/activate` and run `python App/app.py`. Use `--crop tomato` to open with the tomato model selected.
 
-Groq guidance is optional. Copy `App/.env.example` to a local root-level `.env` file and replace the placeholder. Do not publish `.env`.
+Groq guidance is optional. If used, place a user-created `.env` file containing `GROQ_API_KEY` at the repository root. Do not publish that file.
 
 ## Repository structure
 
@@ -45,17 +53,16 @@ Plant-Disease-AI/
 ```
 
 - `Dataset/` — runtime class mappings and dataset audit metadata.
-- `Models/` — final checkpoints, crop configuration, and model factory.
-- `Evaluation/` — inference, preprocessing, Grad-CAM, training/evaluation modules, and retained reusable scripts.
+- `Models/` — final checkpoints and crop/runtime configuration.
+- `Evaluation/` — reusable model construction, inference, preprocessing, Grad-CAM, and evaluation modules.
 - `Outputs/` — final grape and tomato evaluation artifacts.
 - `Documentation/` — architecture, model notes, dataset/model reports, and Raspberry Pi requirements.
-- `App/` — PySide6 UI, shared runtime utilities, translations, camera support, launchers, and setup helpers.
+- `App/` — consolidated source, standalone Windows EXE, and Inno Setup installer script.
 
 ## Limitations
 
 - Raw datasets and prepared splits are not distributed.
 - The classifiers do not provide crop verification or out-of-distribution rejection.
 - Groq guidance requires network access and a user-supplied API key.
-- No prebuilt EXE or installer is included.
+- The packaged EXE was verified on 64-bit Windows 11; other Windows versions were not tested.
 - No license file was present, so no license is asserted.
-

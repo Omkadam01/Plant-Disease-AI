@@ -15,7 +15,7 @@ import torch
 import torch.nn as nn
 
 from models.factory import ModelFactory
-from training.transforms import IMAGENET_MEAN, IMAGENET_STD, get_inference_transforms
+from preprocessing.transforms import IMAGENET_MEAN, IMAGENET_STD, get_inference_transforms
 from utils.config import AppConfig
 from utils.device import get_device
 from utils.image_utils import read_image_rgb
@@ -97,7 +97,7 @@ class Predictor:
         else:
             default = config.get(
                 "inference.weights_path",
-                f"Models/weights/{config.crop_name}/best_model.pth",
+                f"Models/Final_Model/{config.crop_name}/best_model.pth",
             )
             self.weights_path = config.project_root / default
 

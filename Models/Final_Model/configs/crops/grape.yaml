@@ -1,0 +1,72 @@
+# PlantDiseaseAI - Grape Crop Configuration
+# Inherits from configs/base.yaml
+
+crop:
+  name: grape
+  display_name: Grape
+  dataset_source: PlantVillage (Original)
+  total_images: 4062
+
+paths:
+  dataset_root: Dataset/datasets/grape
+  raw: Dataset/datasets/grape/raw
+  processed: Dataset/datasets/grape/processed
+  train: Dataset/datasets/grape/train
+  val: Dataset/datasets/grape/val
+  test: Dataset/datasets/grape/test
+  reports: Dataset/datasets/grape/reports
+  model_dir: Models/Final_Model/grape
+
+classes:
+  - id: 0
+    folder_name: Black_Rot
+    display_name: Black Rot
+    slug: black_rot
+  - id: 1
+    folder_name: Esca
+    display_name: Esca (Black Measles)
+    slug: esca
+  - id: 2
+    folder_name: Leaf_Blight
+    display_name: Leaf Blight (Isariopsis Leaf Spot)
+    slug: leaf_blight
+  - id: 3
+    folder_name: Healthy
+    display_name: Healthy
+    slug: healthy
+
+# Folder name aliases for PlantVillage raw dataset compatibility
+class_aliases:
+  "Grape___Black_rot": Black_Rot
+  "Grape___Black_Rot": Black_Rot
+  "Grape___Esca_(Black_Measles)": Esca
+  "Grape___Esca": Esca
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": Leaf_Blight
+  "Grape___Leaf_Blight": Leaf_Blight
+  "Grape___healthy": Healthy
+  "Grape___Healthy": Healthy
+
+training:
+  model_name: efficientnet_b0
+  num_epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+
+evaluation:
+  output_dir: Outputs/Grape
+
+export:
+  output_dir: Outputs/exports/grape
+  model_name_prefix: grape_disease
+
+inference:
+  weights_path: Models/Final_Model/grape/best_model.pth
+  class_names_path: Dataset/datasets/grape/reports/class_mapping.json
+  image_size: 224
+  num_classes: 4
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+
+desktop_app:
+  title: PlantDiseaseAI - Grape Disease Detection
+  crop: grape

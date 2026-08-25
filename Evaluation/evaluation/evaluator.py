@@ -16,8 +16,8 @@ from tqdm import tqdm
 from evaluation.metrics import MetricsResult, compute_metrics
 from evaluation.plots import plot_confusion_matrix, plot_precision_recall_curves, plot_roc_curves
 from models.factory import ModelFactory
-from training.dataset import PlantDiseaseDataset
-from training.transforms import get_val_transforms
+from preprocessing.dataset import PlantDiseaseDataset
+from preprocessing.transforms import get_val_transforms
 from utils.config import AppConfig
 from utils.device import get_device
 from utils.paths import ProjectPaths
@@ -47,7 +47,7 @@ class Evaluator:
             self.weights_path = weights_path
         else:
             default = self.config.get(
-                "inference.weights_path", "Models/weights/grape/best_model.pth"
+                "inference.weights_path", "Models/Final_Model/grape/best_model.pth"
             )
             self.weights_path = config.project_root / default
 

@@ -18,8 +18,8 @@ from tqdm import tqdm
 
 from evaluation.metrics import MetricsResult, compute_metrics
 from models.factory import ModelFactory
-from training.dataset import PlantDiseaseDataset
-from training.transforms import get_val_transforms
+from preprocessing.dataset import PlantDiseaseDataset
+from preprocessing.transforms import get_val_transforms
 from utils.config import AppConfig
 from utils.device import get_device
 from utils.paths import ProjectPaths
@@ -231,7 +231,7 @@ class TomatoEvaluator:
         self.project_root = config.project_root
 
         default_weights = config.project_root / config.get(
-            "inference.weights_path", "Models/weights/tomato/best_model.pth"
+            "inference.weights_path", "Models/Final_Model/tomato/best_model.pth"
         )
         self.weights_path = weights_path or default_weights
         self.test_dir = self.paths.test.resolve()

@@ -1,1 +1,0 @@
-"""CLI scripts for PlantDiseaseAI."""
